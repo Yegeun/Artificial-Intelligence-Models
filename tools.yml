@@ -2,9 +2,11 @@
  # conda install jupyter
  # conda install -c pytorch pytorch
  # conda env update --file tools.yml
+ # conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 dependencies:
     - jupyter
     - scikit-learn
     - scipy
     - matplotlib
     - pip
+    - pytorch
