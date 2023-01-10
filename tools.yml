@@ -1,7 +1,8 @@
- # conda create --name torch python=3.6
- # conda install jupyter
+ # conda create --name [nameofconda] python=3.9
+ # conda activate [nameofconda]
  # conda install -c pytorch pytorch
  # conda env update --file tools.yml
+ #To list all the envs use # conda env list 
 dependencies:
     - jupyter
     - scikit-learn
