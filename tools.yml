@@ -2,6 +2,7 @@
  # conda activate [nameofconda]
  # conda install -c pytorch pytorch
  # conda env update --file tools.yml
+ # conda install tensorflow
  #To list all the envs use # conda env list 
 dependencies:
     - jupyter
